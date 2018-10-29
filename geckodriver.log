@@ -457,3 +457,22 @@ common/ipc_channel_win.cc, line 346
 [Child 7184, Ch[GPU 2988, Chro
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1540836646204	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fred\\AppData\\Local\\Temp\\rust_mozprofile.Q6y079WPD5Dd"
+1540836648653	Marionette	INFO	Listening on port 50664
+1540836648923	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540836648956	Marionette	DEBUG	[6442450945] Frame script loaded
+1540836648966	Marionette	DEBUG	[6442450945] Frame script registered
+1540836648988	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540836649265	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540836649272	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8000/
+1540836649338	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8000/
+1540836651605	Marionette	INFO	Stopped listening on port 50664
+[Parent 14332, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8432, [Parent 14332, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1592, [Parent 14332, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10256,[GPU 7780
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
